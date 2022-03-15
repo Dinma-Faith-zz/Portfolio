@@ -11,11 +11,11 @@
 
 To get a local copy up and running follow these simple example steps.
 
-- copy this link `https://github.com/Dinma-Faith/Hello-Page-Setup.git`.
+- copy this link `https://github.com/Dinma-Faith/Mobile-View-Portfolio.git`.
 - get the directory that you want to clone the repository.
 - open the command prompt in this directory.
-- write `git clone https://github.com/Dinma-Faith/Hello-Page-Setup.git`.
-- go to the repository folder in your command prompt `cd Hello-Page-Setup`
+- write `git clone https://github.com/Dinma-Faith/Mobile-View-Portfolio.git`.
+- go to the repository folder in your command prompt `cd Mobile-View-Portfolio`
 
 
 
