@@ -160,6 +160,10 @@
   list-style: none;
 }
 
+.works li {
+  list-style-type: none;
+}
+
 .projects ul li {
   background: #ebebff;
   border-radius: 8px;
@@ -230,10 +234,6 @@ span.chevron {
   display: block;
 }
 
-.works li {
-  list-style-type: none;
-}
-
 .langs {
   display: flex;
   justify-content: space-between;
@@ -273,6 +273,5 @@ span.chevron {
   margin-top: 35px;
   margin-bottom: 50px;
   border-bottom: 1px solid #dfe1e6;
-  padding-bottom: 20px;
   padding: 0 25px 20px 8px;
 }
