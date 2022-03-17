@@ -9,7 +9,6 @@
 
 .container {
   max-width: 375px;
-  border: 1px solid red;
 }
 
 .container-section {
@@ -83,8 +82,6 @@
   list-style: none;
 }
 
-
-/* WORKS */
 .grid-container {
   display: grid;
   width: 370px;
@@ -145,10 +142,6 @@
   line-height: 24px;
   font-size: 15px;
   margin-bottom: 20px;
-}
-
-li {
-  list-style: none;
 }
 
 .projects ul {
