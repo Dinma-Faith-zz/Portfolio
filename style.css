@@ -323,9 +323,13 @@ span.chevron {
   border: solid 1px #cfd8dc;
   margin-bottom: 20px;
   padding: 15px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
 }
 
 .text-area {
+  color: #b3baC5;
   height: 170px;
 }
 
