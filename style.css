@@ -290,7 +290,6 @@ span.chevron {
   align-items: center;
   height: 816px;
   background-image: url('./img/contact-form-shape.png');
-  background-size: cover;
   background-color: #6070ff;
   background-size: cover;
   background-repeat: no-repeat;
@@ -329,7 +328,7 @@ span.chevron {
 }
 
 .text-area {
-  color: #b3baC5;
+  color: #b3bac5;
   height: 170px;
 }
 
