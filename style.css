@@ -32,6 +32,7 @@ li {
 
 .header .logo a {
   text-decoration: none;
+  color: #6070ff;
 }
 
 .header .bars {
@@ -55,7 +56,7 @@ li {
   background-position: center;
 }
 
-.intro h1 {
+.intro h2 {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -192,13 +193,13 @@ li {
   justify-content: space-between;
   width: 50%;
   padding-top: 15px;
-  margin: 10px 10px;
+  margin: 10px 15px 20px 20px;
 }
 
 .btn {
   background-color: #fff;
   border: none;
-  border: 1px solid #dfe1e6;
+  border: 1px solid #396df2;;
   border-radius: 6px;
   color: #396df2;
   padding: 10px 15px;
@@ -236,11 +237,10 @@ li {
 
 .intro2 p {
   color: #344563;
-  width: 327px;
+  width: 446px;
   height: 146px;
-  line-height: 24px;
   font-size: 16px;
-  margin-bottom: 15px;
+  margin-bottom: -34px;
 }
 
 span.chevron {
@@ -249,6 +249,8 @@ span.chevron {
 
 .works {
   display: block;
+  margin-left: 71px;
+  margin-right: -50px;
 }
 
 .langs {
@@ -275,6 +277,7 @@ span.chevron {
 .text-1 {
   font-weight: 500;
   font-size: 20px;
+  color: #253858;
 }
 
 .text-2 {
@@ -380,6 +383,7 @@ input.form-control::placeholder {
 
   .logo a {
     padding-left: 30px;
+    margin-left: 55px;
   }
 
   .menu-content ul {
@@ -434,7 +438,7 @@ input.form-control::placeholder {
   .socials {
     display: flex;
     justify-content: space-between;
-    width: 19%;
+    width: 13%;
     padding-top: 15px;
     margin-bottom: 100px;
     margin-left: 123px;
