@@ -463,11 +463,6 @@ input.form-control::placeholder {
     height: 448px;
   }
 
-  .container-section2 {
-    margin: 100px auto;
-    width: 100%;
-  }
-
   .mobile-lang {
     display: none;
   }
@@ -554,6 +549,8 @@ input.form-control::placeholder {
     grid-template-columns: repeat(8, 1fr);
     margin-right: 20;
     padding-top: 142px;
+    margin: 100px auto;
+    width: 100%;
   }
 
   .intro2 {
