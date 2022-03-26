@@ -1,6 +1,6 @@
 # Mobile-View-Portfolio
 
--Portfolio: Setup and mobile version skeleton
+The desktop version of my portfolio.
 
 ## Built With
 
@@ -41,11 +41,6 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@githubhandle](https://github.com/Dinma-Faith)
 - Twitter: [@twitterhandle](https://twitter.com/paul_dinma)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/chidinma-faith)
-
-👤 **jodrack**
-
-- GitHub: [@githubhandle](https://github.com/joseph07-drack)
-- LinkedIn: [LinkedIn](https://.linkedin.com/in/joseph-buingo-ab2682225)
 
 
 
