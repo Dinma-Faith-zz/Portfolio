@@ -28,11 +28,17 @@ li {
   line-height: 20px;
   color: #6070ff;
   padding: 8px 0 0 12px;
+  transform: scale(1);
 }
 
 .header .logo a {
   text-decoration: none;
   color: #6070ff;
+}
+
+.header .logo:hover {
+  transform: scale(3);
+  transition: all 5s;
 }
 
 .header .bars {
@@ -371,7 +377,7 @@ input.form-control::placeholder {
 }
 
 /* Media-Queries */
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1000px) {
   body {
     font-family: "Poppins", sans-serif;
   }
@@ -402,6 +408,7 @@ input.form-control::placeholder {
 
   .menu-content li {
     padding: 1rem;
+    
   }
 
   .menu-content a {
