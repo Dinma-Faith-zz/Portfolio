@@ -74,14 +74,16 @@ li {
 
 .connect {
   color: #7f8cff;
+  padding-bottom: 12px;
 }
 
 .socials {
   display: flex;
-  justify-content: space-between;
-  width: 50%;
-  padding-top: 15px;
-  margin-bottom: 100px;
+}
+
+.presentation .socials a {
+  margin-right: 20px;
+  width: 20px;
 }
 
 .socials li {
@@ -190,10 +192,14 @@ li {
 
 .socials2 {
   display: flex;
-  justify-content: space-between;
-  width: 50%;
-  padding-top: 15px;
-  margin: 10px 15px 20px 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.intro2 .socials2 a {
+  margin-right: 20px;
+  margin-left: 10px;
+  padding-top: 20px;
 }
 
 .btn {
@@ -249,8 +255,8 @@ span.chevron {
 
 .works {
   display: block;
-  margin-left: 71px;
-  margin-right: -50px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .langs {
@@ -365,7 +371,7 @@ input.form-control::placeholder {
 }
 
 /* Media-Queries */
-@media screen and (min-width: 1044px) {
+@media screen and (min-width: 1440px) {
   body {
     font-family: "Poppins", sans-serif;
   }
@@ -436,12 +442,7 @@ input.form-control::placeholder {
   }
 
   .socials {
-    display: flex;
-    justify-content: space-between;
-    width: 13%;
-    padding-top: 15px;
-    margin-bottom: 100px;
-    margin-left: 123px;
+    margin-left: 9%;
   }
 
   /* Grid */
@@ -450,6 +451,11 @@ input.form-control::placeholder {
     grid-template-columns: auto;
     width: 100%;
     padding: 5%;
+    margin-top: 70px;
+  }
+
+  .langs {
+    margin-bottom: 5px;
   }
 
   .cards-img {
@@ -478,6 +484,7 @@ input.form-control::placeholder {
 
   .desktop-lang img {
     margin-left: 10px;
+    margin-top: -55px;
   }
 
   .content-wrap {
@@ -557,8 +564,7 @@ input.form-control::placeholder {
   }
 
   .intro2 {
-    margin-left: 80px;
-    width: 400px;
+    padding-left: 40%;
     margin-top: -100px;
   }
 
@@ -568,14 +574,10 @@ input.form-control::placeholder {
     line-height: 24px;
   }
 
-  /* .work-list {
-    display: flex;
-  } */
-
   .works-div {
     width: 600px;
-    margin-left: 50px;
     margin-top: -100px;
+    margin-left: 32%;
   }
 
   .works li {
