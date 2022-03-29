@@ -8,7 +8,7 @@
 }
 
 body {
-  background: #e5e5e5; 
+  background: #e5e5e5;
 }
 
 li {
@@ -60,7 +60,7 @@ li {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #fff;
-  border-bottom-left-radius : 120px;
+  border-bottom-left-radius: 120px;
   display: flex;
   flex-direction: column;
   padding: 20px;
@@ -386,7 +386,6 @@ input.form-control::placeholder {
   border-top-right-radius: 80px;
 }
 
-
 /* Media-Queries */
 @media screen and (min-width: 992px) {
   body {
@@ -456,13 +455,13 @@ input.form-control::placeholder {
     padding: 5%;
   }
 
+  .content-wrap {
+    padding: 48px 46px;
+  }
+
   .cards img,
   .cards .content-wrap {
     width: 50%;
-  }
-
-  .content-wrap {
-    padding: 48px 46px;
   }
 
   .reverse {
@@ -488,11 +487,6 @@ input.form-control::placeholder {
 
   .content-wrap2 {
     padding: 46px;
-  }
-
-  .h2 {
-    margin: 0;
-    margin-bottom: 32px;
   }
 
   .projects ul {
@@ -525,6 +519,8 @@ input.form-control::placeholder {
     font-weight: 700;
     line-height: 52px;
     color: #091e42;
+    margin: 0;
+    margin-bottom: 32px;
   }
 
   .para {
@@ -562,7 +558,7 @@ input.form-control::placeholder {
   }
 
   .works li {
-    padding-bottom: 30px;
+    padding-bottom: 6px;
   }
 
   .work-list {
@@ -584,7 +580,6 @@ input.form-control::placeholder {
     border-bottom: 1px solid #dfe1e6;
   }
 
-  
   .chevron span {
     padding-left: 100px;
   }
@@ -597,4 +592,7 @@ input.form-control::placeholder {
     padding-inline: 35%;
   }
 
+  .btn {
+    margin-left: 34%;
+  }
 }
